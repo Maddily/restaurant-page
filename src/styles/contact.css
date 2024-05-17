@@ -1,0 +1,47 @@
+.contact-us {
+  letter-spacing: 3px;
+  border-radius: 2px;
+  background: #51201c;
+  color: #dec8a0;
+  width: 60%;
+  padding: 10px;
+  height: 50px;
+  line-height: 65px;
+  border: 7px double #aa9366;
+  text-align: center;
+}
+
+.owl-mail-address, .floo-network-fireplace-code {
+  border: 7px double #51201c;
+  padding: 10px;
+  letter-spacing: 0.6px;
+  width: 80%;
+}
+
+@media screen and (min-width: 400px) {
+  .owl-mail-address, .floo-network-fireplace-code {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .owl-mail-address, .floo-network-fireplace-code {
+    width: 60%;
+  }
+
+  .contact-us {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .owl-mail-address, .floo-network-fireplace-code {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .owl-mail-address, .floo-network-fireplace-code {
+    width: 50%;
+  }
+}
