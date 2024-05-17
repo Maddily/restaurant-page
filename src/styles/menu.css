@@ -1,0 +1,119 @@
+.menu-heading {
+  letter-spacing: 3px;
+  border-radius: 2px;
+  background: #51201c;
+  color: #dec8a0;
+  padding: 10px;
+  height: 50px;
+  line-height: 65px;
+  border: 7px double #aa9366;
+  width: 50%;
+  text-align: center;
+}
+
+h2, h3 {
+  letter-spacing: 2.5px;
+}
+
+.menu-section-heading {
+  letter-spacing: 3px;
+  border-radius: 2px;
+  background: #51201c;
+  color: #dec8a0;
+  padding: 10px;
+  height: 50px;
+  line-height: 65px;
+  border: 7px double #aa9366;
+  width: 30%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.menu-item {
+  border: 7px double #51201c;
+  padding: 10px;
+  letter-spacing: 0.6px;
+  width: 80%;
+}
+
+.menu-item div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu-item h3 {
+  height: 30px;
+  line-height: 40px;
+}
+
+.menu-item span {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+
+.butterbeer-icon {
+  background: url('../assets/images/butterbeer.png');
+}
+
+.pumpkin-juice-icon {
+  background: url('../assets/images/pumpkin-juice.png');
+}
+
+.phoenix-fizz-icon {
+  background: url('../assets/images/phoenix-fizz.png');
+}
+
+.gillywater-icon {
+  background: url('../assets/images/gillywater.png');
+}
+
+.wizarding-wedges-icon {
+  background: url('../assets/images/wizarding-wedges.png');
+}
+
+.dragon-scale-chips-icon {
+  background: url('../assets/images/dragon-scale-chips.png');
+}
+
+.floo-powder-fries-icon {
+  background: url('../assets/images/floo-powder-fries.png');
+}
+
+.vegetarian-veela-salad-icon {
+  background: url('../assets/images/vegetarian-veela-salad.png');
+}
+
+.hagrid-hearty-stew-icon {
+  background: url('../assets/images/hagrid-hearty-stew.png');
+}
+
+.ministry-meat-pie-icon {
+  background: url('../assets/images/ministry-meat-pie.png');
+}
+
+.magical-macaroni-and-cheese-icon {
+  background: url('../assets/images/magical-macaroni-and-cheese.png');
+}
+
+.vegetarian-veela-curry-icon {
+  background: url('../assets/images/vegetarian-veela-curry.png');
+}
+
+.price {
+  text-align: right;
+  margin: 0;
+}
