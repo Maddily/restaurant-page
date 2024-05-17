@@ -1,0 +1,201 @@
+@font-face {
+  font-family: 'Harry Potter';
+  src: url('../assets/fonts/HarryPotter-ov4z.ttf');
+}
+
+body {
+  height: 100vh;
+  font-family: 'Harry Potter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: #51201c;
+  padding-top: 10px;
+  color: #391412;
+  user-select: none;
+  line-height: 2rem;
+  letter-spacing: 0.6px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-button {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background: #dec8a0;
+  border: 1px solid #391412;
+  border-bottom: none;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  padding: 2px;
+}
+
+.nav-button:hover {
+  cursor: pointer;
+}
+
+.nav-button:active {
+  background: #DAA520;
+}
+
+.nav-button svg {
+  width: 30px;
+}
+
+.selected {
+  background: #DAA520;
+}
+
+#content {
+  position: relative;
+  border-radius: 2px;
+  background: url('../assets/images/scroll.jpg');
+  width: 95%;
+  height: 1000px;
+  margin: 0 auto;
+  box-shadow: 0 -0.1rem 0.2rem #51201c;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  overflow: auto;
+}
+
+#content::-webkit-scrollbar {
+  width: 20px;
+}
+
+#content::-webkit-scrollbar-track {
+  background: #6B0504;
+}
+
+#content::-webkit-scrollbar-thumb {
+  background: #DAA520;
+  border-radius: 6px;
+}
+
+#content::-webkit-scrollbar-thumb:hover {
+  background: #8B4513;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+footer {
+  margin-top: 20px;
+  font-family: serif;
+  background: #dec8a0;
+  padding: 30px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.disclaimer {
+  margin-left: 20px;
+  line-height: 1.5rem;
+  margin: 0 auto;
+}
+
+.credits {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0 auto;
+}
+
+.credits a {
+  text-decoration: none;
+  color: black;
+}
+
+.credits svg {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (min-width: 400px) {
+  .nav-button {
+    padding: 3px;
+  }
+
+  nav {
+    gap: 40px;
+  }
+
+  .nav-button svg {
+    width: 40px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .nav-button {
+    padding: 10px;
+  }
+
+  nav {
+    gap: 40px;
+  }
+
+  .nav-button svg {
+    width: 50px;
+  }
+
+  .disclaimer {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  nav {
+    gap: 60px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  nav {
+    gap: 100px;
+  }
+
+  .disclaimer {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #content {
+    width: 80%;
+  }
+
+  .disclaimer {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  #content {
+    width: 70%;
+  }
+
+  .disclaimer {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #content {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  #content {
+    width: 50%;
+  }
+}
