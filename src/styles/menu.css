@@ -7,7 +7,7 @@
   height: 50px;
   line-height: 65px;
   border: 7px double #aa9366;
-  width: 50%;
+  width: 200px;
   text-align: center;
 }
 
@@ -16,9 +16,9 @@ h2, h3 {
 }
 
 .menu-section-heading {
+  background: #51201c;
   letter-spacing: 3px;
   border-radius: 2px;
-  background: #51201c;
   color: #dec8a0;
   padding: 10px;
   height: 50px;
@@ -40,9 +40,8 @@ h2, h3 {
   gap: 10px;
 }
 
-h3 {
-  margin: 0;
-  font-size: 1.3rem;
+.menu-items p {
+  font-size: 1rem;
 }
 
 .menu-item {
@@ -61,12 +60,17 @@ h3 {
 .menu-item h3 {
   height: 30px;
   line-height: 40px;
+  font-size: 1.1rem;
 }
 
 .menu-item span {
   width: 32px;
   height: 32px;
   display: inline-block;
+}
+
+.description {
+  margin-top: 40px;
 }
 
 .butterbeer-icon {
@@ -120,4 +124,18 @@ h3 {
 .price {
   text-align: right;
   margin: 0;
+}
+
+@media screen and (min-width: 500px) {
+  .menu-heading {
+    width: 50%;
+  }
+
+  .menu-item h3 {
+    font-size: 1.4rem;
+  }
+
+  .menu-item p {
+    font-size: 1.3rem;
+  }
 }
