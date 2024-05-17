@@ -2,7 +2,7 @@
 
 This is a web page project inspired by The Three Broomsticks, a fictional restaurant from the Harry Potter universe.
 
-![Menu](src/assets/images/screenshot.png)
+![Menu](src/assets/images/screenshot.jpg)
 
 ## Built With
 <p>
