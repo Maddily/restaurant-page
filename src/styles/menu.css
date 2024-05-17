@@ -29,6 +29,10 @@ h2, h3 {
   margin: 20px auto;
 }
 
+.beverages-container, .sides-container, .main-dishes-container {
+  width: 90%;
+}
+
 .menu-items {
   display: flex;
   flex-direction: column;
