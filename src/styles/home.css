@@ -1,0 +1,67 @@
+.restaurant-name {
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  border-radius: 2px;
+  background: #51201c;
+  color: #dec8a0;
+  width: fit-content;
+  padding: 10px;
+  height: 50px;
+  line-height: 65px;
+  border: 7px double #aa9366;
+}
+
+.review {
+  text-align: center;
+  line-height: 2rem;
+}
+
+.review, .hours, .location {
+  border: 7px double #51201c;
+  padding: 10px;
+  letter-spacing: 0.6px;
+  width: 80%;
+}
+
+.reviewer {
+  font-weight: bold;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.hours h2, .location h2 {
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.hours p, .location p {
+  text-align: center;
+}
+
+@media screen and (min-width: 400px) {
+  .review, .hours, .location {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .restaurant-name {
+    font-size: 2rem;
+  }
+
+  .review, .hours, .location {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .review, .hours, .location {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .review, .hours, .location {
+    width: 50%;
+  }
+}
